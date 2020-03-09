@@ -44,6 +44,28 @@ public class Solution2 {
     //双链表法
     //时间复杂度 o(n)
     // 空间复杂度o(1)
+    public boolean hasCycle4(ListNode head) {
+        //特殊情况处理
+        if(head == null || head.next == null){
+            return false;
+        }
+        ListNode slow = head;
+        ListNode  fast = head.next;
+        while (fast!=slow){
+            if(fast==null||fast.next==null){
+                return false;
+            }
+            slow = slow.next;
+            fast = fast.next.next;
+
+        }
+        return true;
+
+    }
+
+    //双链表法
+    //时间复杂度 o(n)
+    // 空间复杂度o(1)
     public boolean hasCycle3(ListNode head) {
         //特殊情况处理
         if(head == null || head.next == null){
@@ -92,7 +114,7 @@ public class Solution2 {
 
 
         Solution2 temp = new Solution2();
-        System.out.println(temp.hasCycle3(head));
+        System.out.println(temp.hasCycle4(head));
 
     }
 
