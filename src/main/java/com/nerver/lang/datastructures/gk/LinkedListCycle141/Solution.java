@@ -1,6 +1,6 @@
 package com.nerver.lang.datastructures.gk.LinkedListCycle141;
 
-import com.nerver.lang.datastructures.gk.LinkedListCycle141.ListNode;
+import com.nerver.lang.datastructures.gk.common.ListNode;
 
 import java.util.HashSet;
 import java.util.Set;

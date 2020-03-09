@@ -1,4 +1,4 @@
-package com.nerver.lang.datastructures.gk.ReverseLinkedList206;
+package com.nerver.lang.datastructures.gk.common;
 
 public class ListNode {
     public int val;

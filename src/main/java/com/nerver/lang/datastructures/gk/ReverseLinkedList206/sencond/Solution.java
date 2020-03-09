@@ -1,7 +1,7 @@
 package com.nerver.lang.datastructures.gk.ReverseLinkedList206.sencond;
 
 
-import com.nerver.lang.datastructures.gk.ReverseLinkedList206.ListNode;
+import com.nerver.lang.datastructures.gk.common.ListNode;
 
 public class Solution {
 
