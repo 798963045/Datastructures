@@ -5,7 +5,7 @@ import com.nerver.lang.datastructures.gk.common.ListNode;
 public class Solution {
 
     // 1->2->3->4
-
+    //递归解法
     public static ListNode swapPairs(ListNode head) {
         if(head == null || head.next ==null){
             return head;
@@ -21,7 +21,7 @@ public class Solution {
 
     }
 
-    //
+    //迭代解法
     public static ListNode swapPairs2(ListNode head) {
         // Dummy node acts as the prevNode for the head node
         // of the list and hence stores pointer to the head node.
