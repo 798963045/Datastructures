@@ -4,6 +4,13 @@ import java.util.Stack;
 
 public class Solution {
 
+    /**
+     * 遍历一遍String
+     * time complexity o(n)
+     * space complexity o(n)
+     * @param s
+     * @return
+     */
 
     public boolean isValid(String s) {
         if(s.equals("")){
