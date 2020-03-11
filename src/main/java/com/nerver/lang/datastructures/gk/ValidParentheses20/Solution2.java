@@ -1,4 +1,4 @@
-package com.nerver.lang.datastructures.gk.ValidParentheses;
+package com.nerver.lang.datastructures.gk.ValidParentheses20;
 
 import java.util.HashMap;
 import java.util.Stack;
