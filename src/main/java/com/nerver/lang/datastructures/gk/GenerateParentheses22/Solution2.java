@@ -13,6 +13,8 @@ public class Solution2 {
      * "(()())",
      * @param n
      * @return
+     *
+     * DFS BFS https://leetcode-cn.com/problems/generate-parentheses/solution/hui-su-suan-fa-by-liweiwei1419/
      */
     public List<String> generateParentesis(int n){
         List<String> ans = new ArrayList<>();
