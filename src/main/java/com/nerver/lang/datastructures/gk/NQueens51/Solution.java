@@ -1,7 +1,5 @@
 package com.nerver.lang.datastructures.gk.NQueens51;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLExtensible;
-
 import java.util.ArrayList;
 import java.util.List;
 
