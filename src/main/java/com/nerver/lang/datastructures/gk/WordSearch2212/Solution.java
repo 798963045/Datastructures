@@ -13,6 +13,25 @@ class Solution {
     char[][] _board = null;
     ArrayList<String> _result = new ArrayList<String>();
 
+    /**
+     * Input:
+     * board = [
+     *   ['o','a','a','n'],
+     *   ['e','t','a','e'],
+     *   ['i','h','k','r'],
+     *   ['i','f','l','v']
+     * ]
+     * words = ["oath","pea","eat","rain"]
+     *
+     * Output: ["eat","oath"]
+     *
+     * 来源：力扣（LeetCode）
+     * 链接：https://leetcode-cn.com/problems/word-search-ii
+     * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+     * @param board
+     * @param words
+     * @return
+     */
     public List<String> findWords(char[][] board, String[] words) {
 
         // Step 1). Construct the Trie
