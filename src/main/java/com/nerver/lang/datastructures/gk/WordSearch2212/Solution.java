@@ -25,6 +25,22 @@ class Solution {
      *
      * Output: ["eat","oath"]
      *
+     * 上右下左的坐标处理技巧
+     * [-1,0,1,0]
+     * [0,1,0,-1]
+     *  int[] rowOffset = {-1, 0, 1, 0};
+     *  int[] colOffset = {0, 1, 0, -1};
+     *  for (int i = 0; i < 4; ++i)
+     *  newRow = row + rowOffset[i]
+     *  newCol = col + colOffset[i]
+     *  if (newRow < 0 || newRow >= this._board.length || newCol < 0 || newCol >= this._board[0].length) {
+     *                 continue;
+     *
+     *  trie tree存在才遍历
+     *
+     *  数组映射字符的acsicl码表 某些情况下代表map来使用
+     *  map也可以实现上面的功能
+     *
      * 来源：力扣（LeetCode）
      * 链接：https://leetcode-cn.com/problems/word-search-ii
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
@@ -83,8 +99,7 @@ class Solution {
         for (int i = 0; i < 4; ++i) {
             int newRow = row + rowOffset[i];
             int newCol = col + colOffset[i];
-            if (newRow < 0 || newRow >= this._board.length || newCol < 0
-                    || newCol >= this._board[0].length) {
+            if (newRow < 0 || newRow >= this._board.length || newCol < 0 || newCol >= this._board[0].length) {
                 continue;
             }
             if (currNode.children.containsKey(this._board[newRow][newCol])) {
