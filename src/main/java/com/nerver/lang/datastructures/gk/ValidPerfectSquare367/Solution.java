@@ -5,6 +5,7 @@ public class Solution {
 
     /**
      * 牛顿迭代法
+     * https://leetcode-cn.com/problems/valid-perfect-square/solution/you-xiao-de-wan-quan-ping-fang-shu-by-leetcode/
      * @param num
      * @return
      */
