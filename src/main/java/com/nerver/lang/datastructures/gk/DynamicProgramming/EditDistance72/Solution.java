@@ -44,8 +44,6 @@ public class Solution {
                 d[i][j] = Math.min(left,Math.min(down,left_down));
 
             }
-
-
         }
         return d[n][m];
     }
