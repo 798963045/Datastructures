@@ -1,6 +1,4 @@
-package com.nerver.lang.datastructures.gk.BestTimeToBuyAndSellStock2122;
-
-import com.sun.org.apache.regexp.internal.RE;
+package com.nerver.lang.datastructures.gk.DynamicProgramming.FirstTimeBestTimeToBuyAndSellStock2122;
 
 public class Solution {
 

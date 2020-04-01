@@ -1,4 +1,4 @@
-package com.nerver.lang.datastructures.gk.BestTimeToBuyAndSellStock2122;
+package com.nerver.lang.datastructures.gk.DynamicProgramming.FirstTimeBestTimeToBuyAndSellStock2122;
 
 public class Solution2 {
 
