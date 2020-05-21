@@ -65,5 +65,12 @@ class Solution {
         backtrack(-1, 3);
         return output;
     }
+
+    public static void main(String[] args) {
+        String s ="25525511135";
+        Solution solution = new Solution();
+        System.out.println(solution.restoreIpAddresses(s));
+
+    }
 }
 
