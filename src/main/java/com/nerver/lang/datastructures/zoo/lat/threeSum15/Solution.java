@@ -31,29 +31,20 @@ public class Solution {
             int temp = nums[lo]+nums[hi];
             int left= nums[lo];
             int right=nums[hi];
-
             if(temp==target){
                 List<Integer> tempres= new ArrayList<>();
                 tempres.add(first);
                 tempres.add(nums[lo]);
                 tempres.add(nums[hi]);
                 finresult.add(tempres);
-
-
                 while (lo<hi&&nums[lo]==left) {
                     lo++;
                 }
-
                 while (lo<hi&&nums[hi]==right){
                     hi--;
                 }
-
-
             }else if(temp >target){
-
                 while (lo<hi&&nums[hi]==right) hi--;
-
-
             }else if(temp<target){
                 while (lo<hi&&nums[lo]==left) lo++;
             }
