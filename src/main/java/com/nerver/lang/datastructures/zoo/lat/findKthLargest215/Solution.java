@@ -26,7 +26,7 @@ public class Solution {
             maxHeapify(a,i,heapSize);
         }
     }
-
+    //i 的意思是从第几个开始调整
     public void maxHeapify(int[] a, int i, int heapSize){
         //索引
         int l = i*2+1;
