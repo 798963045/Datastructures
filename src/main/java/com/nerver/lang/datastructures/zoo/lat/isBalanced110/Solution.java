@@ -1,7 +1,6 @@
 package com.nerver.lang.datastructures.zoo.lat.isBalanced110;
 
 import com.nerver.lang.datastructures.gk.common.TreeNode;
-import com.sun.org.apache.xpath.internal.objects.XNull;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
