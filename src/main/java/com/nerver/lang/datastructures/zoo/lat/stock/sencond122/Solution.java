@@ -1,4 +1,4 @@
-package com.nerver.lang.datastructures.zoo.lat.stock.sencond;
+package com.nerver.lang.datastructures.zoo.lat.stock.sencond122;
 
 public class Solution {
     public int maxProfit(int[] prices){
