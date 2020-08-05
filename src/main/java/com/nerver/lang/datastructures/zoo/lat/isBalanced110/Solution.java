@@ -3,24 +3,24 @@ package com.nerver.lang.datastructures.zoo.lat.isBalanced110;
 import com.nerver.lang.datastructures.gk.common.TreeNode;
 import com.sun.org.apache.xpath.internal.objects.XNull;
 
+import java.util.concurrent.atomic.AtomicBoolean;
+
 public class Solution {
 
     boolean res=true;
-
     public boolean isBalanced(TreeNode root){
         if(root==null){
             return true;
         }
-        depth(root,res);
+        depth(root);
         System.out.println(res);
         return res;
     }
-
-    public int depth(TreeNode root,boolean result){
+    public int depth(TreeNode root){
         if(root ==null) return 0;
 
-        int L = depth(root.left,result);
-        int R = depth(root.right,result);
+        int L = depth(root.left);
+        int R = depth(root.right);
         if(Math.abs(L-R)>1) {
             res = false;
         }
