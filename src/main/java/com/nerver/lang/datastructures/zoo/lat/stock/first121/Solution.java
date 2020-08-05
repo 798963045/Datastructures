@@ -1,4 +1,4 @@
-package com.nerver.lang.datastructures.zoo.lat.stock.first;
+package com.nerver.lang.datastructures.zoo.lat.stock.first121;
 
 public class Solution {
     public int maxProfit(int[] prices){
