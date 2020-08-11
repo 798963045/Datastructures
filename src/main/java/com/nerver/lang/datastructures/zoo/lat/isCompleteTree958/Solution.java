@@ -1,8 +1,9 @@
 package com.nerver.lang.datastructures.zoo.lat.isCompleteTree958;
 
 
-import java.util.LinkedList;
-import java.util.Queue;
+import com.nerver.lang.datastructures.gk.common.ListNode;
+
+import java.util.*;
 
 class TreeNN{
     int val;
@@ -35,6 +36,27 @@ class TreeNN{
     //1 2 3 4 5 null 7 null null null null
 
     public static void main(String[] args) {
+
+        Stack<Integer> s = new Stack<>();
+        s.push(1);
+        s.push(2);
+        s.push(3);
+
+        HashMap<Integer, Integer> count = new HashMap();
+
+        PriorityQueue<Integer> heap = new PriorityQueue<>((n1,n2)->count.get(n1)-count.get(n2));
+
+        PriorityQueue<Integer> heap2 = new PriorityQueue<>(new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return count.get(o1)-count.get(o2);
+            }
+        });
+
+        List<Integer> list = s.subList(0,s.size());
+        System.out.println("aa");
+
+
         TreeNN root = new TreeNN(1);
         TreeNN node2 =new TreeNN(2);
         TreeNN node3 =new TreeNN(3);
