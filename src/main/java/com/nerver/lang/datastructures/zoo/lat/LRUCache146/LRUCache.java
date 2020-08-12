@@ -10,7 +10,6 @@ public class LRUCache {
         this.map = new LinkedHashMap<>();
         this.capacity = capacity;
     }
-
     public int get(int key){
         if(map.containsKey(key)){
             int temp = map.get(key);
@@ -21,7 +20,6 @@ public class LRUCache {
             return -1;
         }
     }
-
     public void put(int key ,int value){
         //更新操作
         if(map.containsKey(key)){
@@ -35,11 +33,8 @@ public class LRUCache {
             }
         }
     }
-
     public static void main(String[] args) {
-
         LRUCache lruCache = new LRUCache(2);
-
         lruCache.put(1,1);
         lruCache.put(2,2);
         lruCache.get(1);
@@ -49,7 +44,6 @@ public class LRUCache {
         lruCache.get(1);
         lruCache.get(3);
         lruCache.get(4);
-
         System.out.printf("");
     }
 
