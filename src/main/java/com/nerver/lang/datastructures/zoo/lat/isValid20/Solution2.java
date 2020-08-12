@@ -5,7 +5,6 @@ import java.util.*;
 class Solution2 {
 
     private HashMap<Character,Character> mappings;
-
     public Solution2(){
         this.mappings= new HashMap<>();
         this.mappings.put(')','(');
@@ -13,7 +12,6 @@ class Solution2 {
         this.mappings.put('}','{');
 
     }
-
     public boolean isValid(String s){
         Stack<Character> stack = new Stack<>();
         for (int i=0;i<s.length();i++){
@@ -28,8 +26,6 @@ class Solution2 {
             }
         }
         return stack.isEmpty();
-
     }
-
 }
 
