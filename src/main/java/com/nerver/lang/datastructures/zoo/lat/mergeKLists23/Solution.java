@@ -27,9 +27,14 @@ class Solution {
 
     public static void main(String[] args) {
         TreeMap<Integer,Integer> treeMap = new TreeMap<>();
+        LinkedList<Integer> linkedList = new LinkedList<>();
+
         treeMap.put(1,1);
         treeMap.put(2,2);
         treeMap.put(3,3);
+
+
+
         /**
          * 输入：lists = [[1,4,5],[1,3,4],[2,6]]
          * 输出：[1,1,2,3,4,4,5,6]
