@@ -9,7 +9,6 @@ public class Solution {
         //迭代法
         ListNode pre = null;
         ListNode cur = head;
-
         while (cur!=null){
 
             ListNode next = cur.next;
@@ -19,7 +18,6 @@ public class Solution {
             cur = next;
 
         }
-
         return pre;
 
     }
